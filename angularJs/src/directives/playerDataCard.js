@@ -14,6 +14,11 @@ angular.module('MyApp.directives')
                 
                     
                     
+                },
+                controller: function($scope){
+                    $scope.clickMe=function(player){
+                        alert(player.type);
+                    }
                 }
             };
          }]);

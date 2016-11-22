@@ -8,13 +8,15 @@ angular.module('MyApp.services')
                     name: "Virat Kohli",
                     mentor: "Sachin",
                     birthDate: "20-11-1986",
-                    friends: ["Anushka","Dhoni","Ravi Shastry"]                    
+                    friends: ["Anushka","Dhoni","Ravi Shastry"],
+                    type: "Batsman"
                 },
                 {
                     name: "Dhoni",
                     mentor: "Kumble",
                     birthDate: "20-11-1981",
-                    friends: ["Sachin","RPSharma","Ravi Shastry"]                    
+                    friends: ["Sachin","RPSharma","Ravi Shastry"],
+                    type: "Wicket Keeper"                    
                 }            
                 
             ]
