@@ -1,0 +1,18 @@
+<div>
+
+    <h2 ng-bind="player.name">Name : </h2>
+    <h3 ng-bind="player.mentor">Mentor : </h3>
+    
+    <h4 ng-bind="player.birthDate">DOB : </h4>   
+
+    <p> Friends :
+    
+            <span ng-if="player.friends">
+                <ul>
+                    <li ng-repeat="friend in player.friends">{{friend}}</li>                
+                </ul>
+            </span>   
+    
+    </p>
+
+</div>
