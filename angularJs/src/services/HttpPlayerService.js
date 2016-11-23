@@ -7,7 +7,7 @@ angular.module('MyApp.services')
                 
                 return $http({
                     method: 'GET',
-                    url: 'http://192.168.0.24:8888/players'                    
+                    url: 'http://192.168.0.15:8888/players'                    
                 })
                 
             }
